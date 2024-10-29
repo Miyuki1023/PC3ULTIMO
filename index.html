@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC3 - Tecnologías Cloud</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav class="bar">
+        <ul>
+            <li><a href="#mas">Conoce más de nosotros</a></li>
+            <li><a href="#galeria">Galería de Imágenes</a></li>
+            <li><a href="#parallax">Parallax</a></li>
+            <li><a href="#slider">Slider</a></li>
+        </ul>
+    </nav>
+
+    <section id="mas">
+        <h2>Conoce Más de Nosotros</h2>
+        <p>Somos una empresa comprometida con la implementación de soluciones de tecnologías en la nube, ayudando a organizaciones a adoptar servicios en la nube que optimicen sus operaciones, mejoren su seguridad y reduzcan costos. Con un enfoque en las tecnologías más avanzadas, ofrecemos servicios personalizados de nube privada, pública, híbrida y comunitaria para satisfacer diversas necesidades empresariales.</p>
+    </section>
+<br>
+
+    <div class="galeria" id="galeria">
+        <h3>¿Cuál es la nube correcta para tu empresa?</h3>
+        <br>
+        <div id="item">
+            <img src="./img/images.jfif" alt="Nube Privada">
+            <h4>Nube Privada</h4>
+            <p>Constituida por una sola organización con su propia nube de servidores y software, sin acceso público.</p>
+        </div>
+        <div  id="item">
+            <img src="./img/publico.webp" alt="Nube Pública">
+            <h4>Nube Pública</h4>
+            <p>Utilizada por múltiples empresas de forma simultánea y mantenida por un proveedor de servicios en la nube.</p>
+        </div>
+        <div  id="item">
+            <img src="./img/Híbrida.png" alt="Nube Híbrida">
+            <h4>Nube Híbrida</h4>
+            <p>Combina infraestructuras de nube privada y pública para mayor flexibilidad y opciones de despliegue.</p>
+        </div>
+        <div  id="item">
+            <img src="./img/Comunitaria.jpg" alt="Nube Comunitaria">
+            <h4>Nube Comunitaria</h4>
+            <p>Empresas colaboran compartiendo recursos en la nube para resolver objetivos comunes.</p>
+        </div>
+    </div>
+
+ 
+    <div class="parallax" id="parallax">
+        <h2>Explora las Posibilidades de la Nube</h2>
+    </div>
+
+    
+    <section class="contenido">
+        <h1>Tecnologías Cloud</h1>
+        <p>Las tecnologías en la nube permiten el acceso remoto a recursos de computación, almacenamiento, y redes. Ofrecen soluciones para empresas que buscan flexibilidad, escalabilidad y reducción de costos en sus operaciones diarias.</p>
+        <p>Con la nube, puedes acceder a tus datos y aplicaciones desde cualquier lugar, en cualquier momento, promoviendo una forma de trabajo más ágil y colaborativa.</p>
+    </section>
+
+  
+    <div class="slider" id="slider">
+        <div class="slide active">
+            <img src="./img/images.jfif" alt="Slide 1">
+            <p>Las nubes privadas ofrecen control total para grandes empresas.</p>
+        </div>
+        <div class="slide">
+            <img src="./img/Híbrida.png" alt="Slide 2">
+            <p>Las nubes híbridas permiten una combinación flexible de recursos.</p>
+        </div>
+        <div class="slide">
+            <img src="./img/publico.webp" alt="Slide 3">
+            <p>Las nubes públicas son ideales para proyectos de escalabilidad rápida.</p>
+        </div>
+    </div>
+
+   
+    <footer>
+        <p>Miyuki Panduro</p>
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
+
+    
+    <script>
+        
+        let index = 0;
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide, i) => {
+                slide.style.display = i === index ? 'block' : 'none';
+            });
+            index = (index + 1) % slides.length;
+        }
+        setInterval(showSlides, 3000); // Cambia cada 3 segundos
+        showSlides(); // Muestra la primera imagen al cargar
+    </script>
+</body>
+</html>
