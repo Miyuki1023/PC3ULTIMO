@@ -1,285 +1,572 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+  <!-- META -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- SEO -->
   <title>PERU L&B | Protección Contra Incendios</title>
 
+  <meta
+    name="description"
+    content="Soluciones integrales de prevención y control de incendios para empresas e industrias."
+  />
+
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./index.css">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- REMIX ICON -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- AOS ANIMATION -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./index.css">
+
 </head>
 
 <body>
 
+  <!-- ===================================== -->
+  <!-- LOADER -->
+  <!-- ===================================== -->
+
+  <div class="loader" id="loader">
+
+    <div class="loader-content">
+
+      <div class="loader-logo">
+
+        <i class="ri-fire-fill"></i>
+
+        <span>PERU L&B</span>
+
+      </div>
+
+      <div class="loader-line"></div>
+
+    </div>
+
+  </div>
+
+  <!-- ===================================== -->
+  <!-- SCROLL TOP -->
+  <!-- ===================================== -->
+
+  <a
+    href="#home"
+    class="scroll-top"
+    id="scroll-top"
+  >
+
+    <i class="ri-arrow-up-line"></i>
+
+  </a>
+
+  <!-- ===================================== -->
   <!-- TOPBAR -->
+  <!-- ===================================== -->
 
   <div class="topbar">
+
     <div class="container topbar-content">
+
       <div class="topbar-left">
-        <span>✉ ventas@perulyb.com</span>
-        <span>📞 +51 900 000 000</span>
-        <span>📍 Lima, Perú</span>
-      </div>
-      <div>
-        Protección certificada contra incendios
-      </div>
-    </div>
-  </div>
 
-  <!-- NAVBAR -->
+        <a href="mailto:ventas@perulyb.com">
 
-  <nav>
-    <div class="container navbar">
+          <i class="ri-mail-line"></i>
 
-      <div class="logo">
-        PERU <span>L&B</span>
-      </div>
+          ventas@perulyb.com
 
-      <ul class="menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+        </a>
 
-      <a href="#" class="btn">
-        Solicitar Cotización
-      </a>
+        <a href="tel:+51900000000">
 
-    </div>
-  </nav>
+          <i class="ri-phone-line"></i>
 
-  <!-- HERO -->
+          +51 900 000 000
 
-  <section class="hero">
+        </a>
 
-    <div class="container">
+        <span>
 
-      <div class="hero-content">
+          <i class="ri-map-pin-line"></i>
 
-        <div class="badge">
-          🔥 Especialistas en Seguridad Contra Incendios
-        </div>
+          Lima, Perú
 
-        <h1>
-          Protegemos empresas,
-          personas y proyectos
-        </h1>
-
-        <p>
-          Diseñamos soluciones integrales de prevención y control de incendios con tecnología certificada, atención personalizada y respaldo técnico especializado.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#" class="btn">
-            Ver Servicios
-          </a>
-
-          <a href="#" class="btn btn-outline">
-            Conócenos
-          </a>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- IMPROVED ONBOARDING -->
-
-  <div class="container">
-
-    <div class="onboarding">
-
-      <div class="onboarding-card">
-        <div class="step">01</div>
-        <h3>Evaluamos tu proyecto</h3>
-        <p>
-          Analizamos riesgos, infraestructura y necesidades específicas para ofrecer la mejor solución.
-        </p>
-      </div>
-
-      <div class="onboarding-card">
-        <div class="step">02</div>
-        <h3>Diseñamos la solución</h3>
-        <p>
-          Creamos un sistema personalizado cumpliendo normativas nacionales e internacionales.
-        </p>
-      </div>
-
-      <div class="onboarding-card">
-        <div class="step">03</div>
-        <h3>Implementamos</h3>
-        <p>
-          Instalación profesional con equipos certificados y supervisión especializada.
-        </p>
-      </div>
-
-      <div class="onboarding-card">
-        <div class="step">04</div>
-        <h3>Soporte continuo</h3>
-        <p>
-          Mantenimiento preventivo, monitoreo y asistencia técnica permanente.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- STATS -->
-
-  <section class="stats">
-
-    <div class="container">
-
-      <div class="stats-grid">
-
-        <div class="stat-card">
-          <h2>15+</h2>
-          <p>Años de experiencia</p>
-        </div>
-
-        <div class="stat-card">
-          <h2>500+</h2>
-          <p>Sistemas instalados</p>
-        </div>
-
-        <div class="stat-card">
-          <h2>2000+</h2>
-          <p>Clientes satisfechos</p>
-        </div>
-
-        <div class="stat-card">
-          <h2>12+</h2>
-          <p>Certificaciones</p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ABOUT -->
-
-  <section class="about">
-
-    <div class="container">
-
-      <div class="about-grid">
-
-        <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1974&auto=format&fit=crop" alt="">
-
-        <div>
-
-          <span class="section-tag">
-            SOBRE NOSOTROS
-          </span>
-
-          <h2 class="title">
-            Protección confiable contra incendios
-          </h2>
-
-          <p>
-            En PERU L&B ofrecemos soluciones modernas en prevención y control de incendios para empresas, industrias y proyectos comerciales.
-          </p>
-
-          <a href="#" class="btn">
-            Conocer Más
-          </a>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- SERVICES -->
-
-  <section class="services">
-
-    <div class="container">
-
-      <div class="center">
-
-        <span class="section-tag">
-          NUESTROS SERVICIOS
         </span>
 
-        <h2 class="title">
-          Soluciones integrales en seguridad
+      </div>
+
+      <div class="topbar-right">
+
+        <a href="#">
+
+          <i class="ri-facebook-circle-fill"></i>
+
+        </a>
+
+        <a href="#">
+
+          <i class="ri-linkedin-box-fill"></i>
+
+        </a>
+
+        <a href="#">
+
+          <i class="ri-instagram-line"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ===================================== -->
+  <!-- HEADER -->
+  <!-- ===================================== -->
+
+  <header
+    class="header"
+    id="header"
+  >
+
+    <nav class="container navbar">
+
+      <!-- LOGO -->
+
+      <a
+        href="#home"
+        class="logo"
+      >
+
+        <div class="logo-icon">
+
+          <i class="ri-fire-fill"></i>
+
+        </div>
+
+        <span>PERU</span> L&B
+
+      </a>
+
+      <!-- MENU -->
+
+      <ul
+        class="nav-menu"
+        id="nav-menu"
+      >
+
+        <li>
+
+          <a
+            href="#home"
+            class="nav-link active-link"
+          >
+
+            Inicio
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a
+            href="#about"
+            class="nav-link"
+          >
+
+            Nosotros
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a
+            href="#services"
+            class="nav-link"
+          >
+
+            Servicios
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a
+            href="#projects"
+            class="nav-link"
+          >
+
+            Proyectos
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a
+            href="#testimonials"
+            class="nav-link"
+          >
+
+            Testimonios
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a
+            href="#contact"
+            class="nav-link"
+          >
+
+            Contacto
+
+          </a>
+
+        </li>
+
+      </ul>
+
+      <!-- ACTIONS -->
+
+      <div class="nav-actions">
+
+        <a
+          href="#contact"
+          class="btn-primary"
+        >
+
+          Cotizar Ahora
+
+        </a>
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+        >
+
+          <i class="ri-menu-3-line"></i>
+
+        </button>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- ===================================== -->
+  <!-- HERO -->
+  <!-- ===================================== -->
+
+  <section
+    class="hero"
+    id="home"
+  >
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-container">
+
+      <div
+        class="hero-content"
+        data-aos="fade-right"
+      >
+
+        <!-- BADGE -->
+
+        <div class="hero-badge">
+
+          <i class="ri-shield-check-line"></i>
+
+          Especialistas en Seguridad Contra Incendios
+
+        </div>
+
+        <!-- TITLE -->
+
+        <h1>
+
+          Protegemos
+          empresas,
+          personas y
+          proyectos
+
+        </h1>
+
+        <!-- DESCRIPTION -->
+
+        <p>
+
+          Diseñamos soluciones integrales de prevención y control
+          de incendios para empresas, industrias y proyectos comerciales.
+
+        </p>
+
+        <!-- BUTTONS -->
+
+        <div class="hero-buttons">
+
+          <a
+            href="#services"
+            class="btn-primary"
+          >
+
+            Ver Servicios
+
+            <i class="ri-arrow-right-line"></i>
+
+          </a>
+
+          <a
+            href="#about"
+            class="btn-secondary"
+          >
+
+            Conócenos
+
+          </a>
+
+        </div>
+
+        <!-- STATS -->
+
+        <div class="hero-stats">
+
+          <div class="hero-stat">
+
+            <h3>15+</h3>
+            <span>Años</span>
+
+          </div>
+
+          <div class="hero-stat">
+
+            <h3>500+</h3>
+            <span>Proyectos</span>
+
+          </div>
+
+          <div class="hero-stat">
+
+            <h3>24/7</h3>
+            <span>Soporte</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SCROLL -->
+
+    <a
+      href="#onboarding"
+      class="scroll-down"
+    >
+
+      <span>Scroll</span>
+
+      <i class="ri-arrow-down-line"></i>
+
+    </a>
+
+  </section>
+
+  <!-- ===================================== -->
+  <!-- ONBOARDING -->
+  <!-- ===================================== -->
+
+  <section
+    class="onboarding-section"
+    id="onboarding"
+  >
+
+    <div class="container">
+
+      <div
+        class="section-header center"
+        data-aos="fade-up"
+      >
+
+        <span class="section-tag">
+
+          ¿CÓMO TRABAJAMOS?
+
+        </span>
+
+        <h2 class="section-title">
+
+          Un proceso claro,
+          moderno y eficiente
+
         </h2>
 
       </div>
 
-      <div class="services-grid">
+      <!-- GRID -->
 
-        <div class="service-card">
+      <div class="onboarding-grid">
 
-          <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1974&auto=format&fit=crop" alt="">
+        <!-- CARD -->
 
-          <div class="service-content">
+        <article
+          class="onboarding-card"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
 
-            <h3>Extintores</h3>
+          <div class="step-number">
 
-            <p>
-              Venta, mantenimiento y recarga de extintores certificados para todo tipo de industrias.
-            </p>
-
-            <a href="#" class="link">
-              Saber más →
-            </a>
+            01
 
           </div>
 
-        </div>
+          <div class="card-icon">
 
-        <div class="service-card">
-
-          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop" alt="">
-
-          <div class="service-content">
-
-            <h3>Rociadores</h3>
-
-            <p>
-              Diseño e instalación de sistemas automáticos de supresión de incendios.
-            </p>
-
-            <a href="#" class="link">
-              Saber más →
-            </a>
+            <i class="ri-search-eye-line"></i>
 
           </div>
 
-        </div>
+          <h3>Evaluación</h3>
 
-        <div class="service-card">
+          <p>
 
-          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop" alt="">
+            Analizamos riesgos y necesidades del proyecto.
 
-          <div class="service-content">
+          </p>
 
-            <h3>Detección Inteligente</h3>
+        </article>
 
-            <p>
-              Sensores inteligentes y monitoreo avanzado para una respuesta inmediata.
-            </p>
+        <!-- CARD -->
 
-            <a href="#" class="link">
-              Saber más →
-            </a>
+        <article
+          class="onboarding-card"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
+
+          <div class="step-number">
+
+            02
 
           </div>
 
-        </div>
+          <div class="card-icon">
+
+            <i class="ri-draft-line"></i>
+
+          </div>
+
+          <h3>Diseño</h3>
+
+          <p>
+
+            Creamos soluciones personalizadas y certificadas.
+
+          </p>
+
+        </article>
+
+        <!-- CARD -->
+
+        <article
+          class="onboarding-card"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+        >
+
+          <div class="step-number">
+
+            03
+
+          </div>
+
+          <div class="card-icon">
+
+            <i class="ri-tools-line"></i>
+
+          </div>
+
+          <h3>Implementación</h3>
+
+          <p>
+
+            Instalación profesional con supervisión técnica.
+
+          </p>
+
+        </article>
+
+        <!-- CARD -->
+
+        <article
+          class="onboarding-card"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+        >
+
+          <div class="step-number">
+
+            04
+
+          </div>
+
+          <div class="card-icon">
+
+            <i class="ri-customer-service-2-line"></i>
+
+          </div>
+
+          <h3>Soporte</h3>
+
+          <p>
+
+            Seguimiento continuo y mantenimiento especializado.
+
+          </p>
+
+        </article>
 
       </div>
 
@@ -287,85 +574,105 @@
 
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- ===================================== -->
+  <!-- ABOUT -->
+  <!-- ===================================== -->
 
-  <section class="testimonials">
+  <section
+    class="about section"
+    id="about"
+  >
 
-    <div class="container">
+    <div class="container about-container">
 
-      <div class="testimonial-box">
+      <!-- IMAGE -->
 
-        <div class="center">
+      <div
+        class="about-image"
+        data-aos="fade-right"
+      >
 
-          <span class="section-tag" style="color:#ff9b9b;">
-            TESTIMONIOS
-          </span>
+        <img
+          src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1974&auto=format&fit=crop"
+          alt="Protección contra incendios"
+        >
 
-          <h2 class="title" style="color:white;">
-            La confianza de nuestros clientes nos respalda
-          </h2>
+        <div class="experience-badge">
 
-        </div>
+          <h3>15+</h3>
 
-        <div class="testimonial-grid">
-
-          <div class="testimonial-card">
-            <h4>Ana Martínez</h4>
-            <small>Cliente Corporativo</small>
-
-            <p>
-              “La atención fue excelente y el equipo técnico nos acompañó en todo el proceso.”
-            </p>
-          </div>
-
-          <div class="testimonial-card">
-            <h4>Gómez Company</h4>
-            <small>Empresa Industrial</small>
-
-            <p>
-              “Su asesoría técnica nos ayudó a implementar un sistema eficiente y seguro.”
-            </p>
-          </div>
-
-          <div class="testimonial-card">
-            <h4>Laura Sánchez</h4>
-            <small>Arquitecta</small>
-
-            <p>
-              “Muy profesionales y comprometidos. Recomendados para proyectos grandes.”
-            </p>
-          </div>
+          <span>Años de experiencia</span>
 
         </div>
 
       </div>
 
-    </div>
+      <!-- CONTENT -->
 
-  </section>
+      <div
+        class="about-content"
+        data-aos="fade-left"
+      >
 
-  <!-- CTA -->
+        <span class="section-tag">
 
-  <section class="cta">
+          SOBRE NOSOTROS
 
-    <div class="container">
+        </span>
 
-      <div class="cta-box">
+        <h2 class="section-title">
 
-        <div>
+          Protección moderna
+          y confiable
 
-          <span class="section-tag" style="color:#ff9b9b;">
-            COTIZACIÓN GRATUITA
-          </span>
+        </h2>
 
-          <h2>
-            ¿Listo para mejorar la seguridad de tu empresa?
-          </h2>
+        <p>
+
+          Implementamos sistemas modernos de prevención y control
+          de incendios con equipos certificados y atención especializada.
+
+        </p>
+
+        <!-- FEATURES -->
+
+        <div class="about-features">
+
+          <div class="feature-item">
+
+            <i class="ri-checkbox-circle-fill"></i>
+
+            <span>Equipos certificados</span>
+
+          </div>
+
+          <div class="feature-item">
+
+            <i class="ri-checkbox-circle-fill"></i>
+
+            <span>Soporte especializado</span>
+
+          </div>
+
+          <div class="feature-item">
+
+            <i class="ri-checkbox-circle-fill"></i>
+
+            <span>Atención rápida</span>
+
+          </div>
 
         </div>
 
-        <a href="#" class="btn">
-          Solicitar Cotización
+        <!-- BUTTON -->
+
+        <a
+          href="#contact"
+          class="btn-primary"
+        >
+
+          Solicitar Información
+
         </a>
 
       </div>
@@ -374,61 +681,409 @@
 
   </section>
 
-  <!-- FOOTER -->
+  <!-- ===================================== -->
+  <!-- SERVICES -->
+  <!-- ===================================== -->
 
-  <footer>
+  <section
+    class="services section"
+    id="services"
+  >
 
     <div class="container">
 
-      <div class="footer-grid">
+      <div
+        class="section-header center"
+        data-aos="fade-up"
+      >
 
-        <div>
-          <h3>PERU L&B</h3>
+        <span class="section-tag">
 
-          <p>
-            Líderes en soluciones de seguridad contra incendios con tecnología certificada y atención profesional.
-          </p>
-        </div>
+          SERVICIOS
 
-        <div>
-          <h3>Explorar</h3>
+        </span>
 
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
-          </ul>
-        </div>
+        <h2 class="section-title">
 
-        <div>
-          <h3>Legal</h3>
+          Soluciones integrales
+          para empresas
 
-          <ul>
-            <li><a href="#">Privacidad</a></li>
-            <li><a href="#">Términos</a></li>
-            <li><a href="#">Certificaciones</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Contacto</h3>
-
-          <ul>
-            <li>Lima, Perú</li>
-            <li>+51 900 000 000</li>
-            <li>ventas@perulyb.com</li>
-          </ul>
-        </div>
+        </h2>
 
       </div>
 
-      <div class="copyright">
-        © 2026 PERU L&B. Todos los derechos reservados.
+      <!-- GRID -->
+
+      <div class="services-grid">
+
+        <!-- CARD -->
+
+        <article
+          class="service-card"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+
+          <div class="service-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1974&auto=format&fit=crop"
+              alt=""
+            >
+
+          </div>
+
+          <div class="service-content">
+
+            <div class="service-icon">
+
+              <i class="ri-fire-line"></i>
+
+            </div>
+
+            <h3>Extintores</h3>
+
+            <p>
+
+              Venta, recarga y mantenimiento de equipos certificados.
+
+            </p>
+
+            <a
+              href="#contact"
+              class="service-link"
+            >
+
+              Saber más
+
+              <i class="ri-arrow-right-up-line"></i>
+
+            </a>
+
+          </div>
+
+        </article>
+
       </div>
 
     </div>
 
+  </section>
+
+  <!-- ===================================== -->
+  <!-- TESTIMONIALS -->
+  <!-- ===================================== -->
+
+  <section
+    class="testimonials section"
+    id="testimonials"
+  >
+
+    <div class="container">
+
+      <div class="section-header center">
+
+        <span class="section-tag">
+
+          TESTIMONIOS
+
+        </span>
+
+        <h2 class="section-title">
+
+          Nuestros clientes
+          nos recomiendan
+
+        </h2>
+
+      </div>
+
+      <div class="testimonial-grid">
+
+        <article class="testimonial-card">
+
+          <div class="testimonial-top">
+
+            <img
+              src="https://randomuser.me/api/portraits/women/45.jpg"
+              alt=""
+            >
+
+            <div>
+
+              <h4>Ana Martínez</h4>
+
+              <span>Cliente Corporativo</span>
+
+            </div>
+
+          </div>
+
+          <p>
+
+            “Excelente servicio y soporte técnico.”
+
+          </p>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================================== -->
+  <!-- CTA -->
+  <!-- ===================================== -->
+
+  <section
+    class="cta section"
+    id="contact"
+  >
+
+    <div class="container">
+
+      <div class="cta-box">
+
+        <div class="cta-content">
+
+          <span class="section-tag">
+
+            CONTACTO
+
+          </span>
+
+          <h2>
+
+            ¿Listo para proteger
+            tu empresa?
+
+          </h2>
+
+          <p>
+
+            Solicita una cotización gratuita.
+
+          </p>
+
+        </div>
+
+        <!-- FORM -->
+
+        <form class="cta-form">
+
+          <input
+            type="text"
+            placeholder="Nombre"
+            required
+          >
+
+          <input
+            type="email"
+            placeholder="Correo electrónico"
+            required
+          >
+
+          <button
+            type="submit"
+            class="btn-primary"
+          >
+
+            Solicitar Cotización
+
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===================================== -->
+  <!-- FOOTER -->
+  <!-- ===================================== -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <!-- BRAND -->
+
+      <div class="footer-brand">
+
+        <a
+          href="#home"
+          class="logo"
+        >
+
+          <div class="logo-icon">
+
+            <i class="ri-fire-fill"></i>
+
+          </div>
+
+          <span>PERU</span> L&B
+
+        </a>
+
+        <p>
+
+          Líderes en protección contra incendios.
+
+        </p>
+
+      </div>
+
+      <!-- LINKS -->
+
+      <div class="footer-links">
+
+        <h3>Explorar</h3>
+
+        <ul>
+
+          <li><a href="#home">Inicio</a></li>
+
+          <li><a href="#about">Nosotros</a></li>
+
+          <li><a href="#services">Servicios</a></li>
+
+          <li><a href="#contact">Contacto</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- CONTACT -->
+
+      <div class="footer-links">
+
+        <h3>Contacto</h3>
+
+        <ul>
+
+          <li>ventas@perulyb.com</li>
+
+          <li>+51 900 000 000</li>
+
+          <li>Lima, Perú</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+      <p>
+
+        © 2026 PERU L&B — Todos los derechos reservados.
+
+      </p>
+
+    </div>
+
   </footer>
+
+  <!-- ===================================== -->
+  <!-- JS -->
+  <!-- ===================================== -->
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+
+    // =====================================
+    // AOS
+    // =====================================
+
+    AOS.init({
+
+      duration: 1000,
+      once: true
+
+    });
+
+    // =====================================
+    // LOADER
+    // =====================================
+
+    window.addEventListener("load", () => {
+
+      const loader = document.getElementById("loader");
+
+      setTimeout(() => {
+
+        loader.classList.add("loader-hidden");
+
+      }, 1200);
+
+    });
+
+    // =====================================
+    // MOBILE MENU
+    // =====================================
+
+    const menu = document.getElementById("nav-menu");
+
+    const menuToggle =
+      document.getElementById("menu-toggle");
+
+    menuToggle.addEventListener("click", () => {
+
+      menu.classList.toggle("show-menu");
+
+    });
+
+    // =====================================
+    // HEADER SCROLL
+    // =====================================
+
+    const header = document.getElementById("header");
+
+    window.addEventListener("scroll", () => {
+
+      if (window.scrollY >= 80) {
+
+        header.classList.add("header-scroll");
+
+      } else {
+
+        header.classList.remove("header-scroll");
+
+      }
+
+    });
+
+    // =====================================
+    // SCROLL TOP
+    // =====================================
+
+    const scrollTop =
+      document.getElementById("scroll-top");
+
+    window.addEventListener("scroll", () => {
+
+      if (window.scrollY >= 400) {
+
+        scrollTop.classList.add("show-scroll");
+
+      } else {
+
+        scrollTop.classList.remove("show-scroll");
+
+      }
+
+    });
+
+  </script>
 
 </body>
 </html>
