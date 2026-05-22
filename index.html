@@ -1,34 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PERU L&B | Protección Contra Incendios</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./index.css">
-
-</head>
-
-  <!-- ========================= -->
   <!-- META -->
-  <!-- ========================= -->
-
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
 
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
-  >
+  />
 
-  <!-- ========================= -->
   <!-- SEO -->
-  <!-- ========================= -->
-
   <title>
     PERU L&B | Protección Contra Incendios
   </title>
@@ -36,12 +18,9 @@
   <meta
     name="description"
     content="Soluciones modernas de prevención y control de incendios para empresas e industrias."
-  >
+  />
 
-  <!-- ========================= -->
   <!-- GOOGLE FONTS -->
-  <!-- ========================= -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <link
@@ -55,45 +34,35 @@
     rel="stylesheet"
   >
 
-  <!-- ========================= -->
   <!-- REMIX ICON -->
-  <!-- ========================= -->
-
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
-  >
+  />
 
-  <!-- ========================= -->
-  <!-- AOS ANIMATION -->
-  <!-- ========================= -->
-
+  <!-- AOS -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-  >
+  />
 
-  <!-- ========================= -->
   <!-- CSS -->
-  <!-- ========================= -->
-
   <link
     rel="stylesheet"
     href="./index.css"
-  >
+  />
 
 </head>
 
 <body>
 
-  <!-- ========================= -->
-  <!-- LOADER -->
-  <!-- ========================= -->
+  <!-- PROGRESS BAR -->
 
-  <div
-    class="loader"
-    id="loader"
-  >
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <!-- LOADER -->
+
+  <div class="loader" id="loader">
 
     <div class="loader-content">
 
@@ -111,9 +80,7 @@
 
   </div>
 
-  <!-- ========================= -->
   <!-- SCROLL TOP -->
-  <!-- ========================= -->
 
   <a
     href="#home"
@@ -125,15 +92,11 @@
 
   </a>
 
-  <!-- ========================= -->
   <!-- TOPBAR -->
-  <!-- ========================= -->
 
   <div class="topbar">
 
     <div class="container topbar-content">
-
-      <!-- LEFT -->
 
       <div class="topbar-left">
 
@@ -163,8 +126,6 @@
 
       </div>
 
-      <!-- RIGHT -->
-
       <div class="topbar-right">
 
         <a href="#">
@@ -191,9 +152,7 @@
 
   </div>
 
-  <!-- ========================= -->
   <!-- HEADER -->
-  <!-- ========================= -->
 
   <header
     class="header"
@@ -219,7 +178,7 @@
 
       </a>
 
-      <!-- NAVIGATION -->
+      <!-- MENU -->
 
       <ul
         class="nav-menu"
@@ -227,94 +186,66 @@
       >
 
         <li>
-
           <a
             href="#home"
             class="nav-link active-link"
           >
-
             Inicio
-
           </a>
-
         </li>
 
         <li>
-
           <a
             href="#about"
             class="nav-link"
           >
-
             Nosotros
-
           </a>
-
         </li>
 
         <li>
-
           <a
-            href="#onboarding"
+            href="#process"
             class="nav-link"
           >
-
             Proceso
-
           </a>
-
         </li>
 
         <li>
-
           <a
             href="#services"
             class="nav-link"
           >
-
             Servicios
-
           </a>
-
         </li>
 
         <li>
-
           <a
             href="#projects"
             class="nav-link"
           >
-
             Proyectos
-
           </a>
-
         </li>
 
         <li>
-
           <a
             href="#testimonials"
             class="nav-link"
           >
-
             Testimonios
-
           </a>
-
         </li>
 
         <li>
-
           <a
             href="#contact"
             class="nav-link"
           >
-
             Contacto
-
           </a>
-
         </li>
 
       </ul>
@@ -347,9 +278,7 @@
 
   </header>
 
-  <!-- ========================= -->
   <!-- HERO -->
-  <!-- ========================= -->
 
   <section
     class="hero"
@@ -367,17 +296,13 @@
         data-aos="fade-right"
       >
 
-        <!-- BADGE -->
-
         <div class="hero-badge">
 
           <i class="ri-shield-check-line"></i>
 
-          Especialistas en Seguridad Contra Incendios
+          Especialistas en protección contra incendios
 
         </div>
-
-        <!-- TITLE -->
 
         <h1>
 
@@ -388,17 +313,13 @@
 
         </h1>
 
-        <!-- DESCRIPTION -->
-
         <p>
 
           Diseñamos soluciones modernas de prevención,
-          detección y control de incendios con equipos
-          certificados y soporte especializado.
+          detección y control de incendios con tecnología
+          certificada y soporte especializado.
 
         </p>
-
-        <!-- BUTTONS -->
 
         <div class="hero-buttons">
 
@@ -430,7 +351,7 @@
 
           <div class="hero-stat">
 
-            <h3>15+</h3>
+            <h3 class="counter" data-target="15">0</h3>
 
             <span>Años</span>
 
@@ -438,7 +359,7 @@
 
           <div class="hero-stat">
 
-            <h3>500+</h3>
+            <h3 class="counter" data-target="500">0</h3>
 
             <span>Proyectos</span>
 
@@ -446,7 +367,7 @@
 
           <div class="hero-stat">
 
-            <h3>24/7</h3>
+            <h3 class="counter" data-target="24">0</h3>
 
             <span>Soporte</span>
 
@@ -464,7 +385,7 @@
       >
 
         <img
-          src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=2074&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
           alt="Protección contra incendios"
         >
 
@@ -475,7 +396,7 @@
     <!-- SCROLL -->
 
     <a
-      href="#onboarding"
+      href="#process"
       class="scroll-down"
     >
 
@@ -487,18 +408,14 @@
 
   </section>
 
-  <!-- ========================= -->
-  <!-- ONBOARDING -->
-  <!-- ========================= -->
+  <!-- PROCESS -->
 
   <section
-    class="onboarding-section"
-    id="onboarding"
+    class="process section"
+    id="process"
   >
 
     <div class="container">
-
-      <!-- HEADER -->
 
       <div
         class="section-header center"
@@ -506,15 +423,13 @@
       >
 
         <span class="section-tag">
-
           ¿CÓMO TRABAJAMOS?
-
         </span>
 
         <h2 class="section-title">
 
-          Un proceso claro,
-          moderno y eficiente
+          Un proceso moderno,
+          rápido y eficiente
 
         </h2>
 
@@ -522,18 +437,20 @@
 
       <!-- GRID -->
 
-      <div class="onboarding-grid">
+      <div class="process-grid">
 
         <!-- CARD -->
 
         <article
-          class="onboarding-card"
+          class="process-card"
           data-aos="zoom-in"
           data-aos-delay="100"
         >
 
           <div class="step-number">
+
             01
+
           </div>
 
           <div class="card-icon">
@@ -546,7 +463,8 @@
 
           <p>
 
-            Analizamos riesgos y necesidades del proyecto.
+            Analizamos riesgos y necesidades
+            del proyecto.
 
           </p>
 
@@ -555,13 +473,15 @@
         <!-- CARD -->
 
         <article
-          class="onboarding-card"
+          class="process-card"
           data-aos="zoom-in"
           data-aos-delay="200"
         >
 
           <div class="step-number">
+
             02
+
           </div>
 
           <div class="card-icon">
@@ -574,7 +494,8 @@
 
           <p>
 
-            Creamos soluciones personalizadas y certificadas.
+            Creamos soluciones personalizadas
+            y certificadas.
 
           </p>
 
@@ -583,13 +504,15 @@
         <!-- CARD -->
 
         <article
-          class="onboarding-card"
+          class="process-card"
           data-aos="zoom-in"
           data-aos-delay="300"
         >
 
           <div class="step-number">
+
             03
+
           </div>
 
           <div class="card-icon">
@@ -602,7 +525,8 @@
 
           <p>
 
-            Instalación profesional con supervisión técnica.
+            Instalación profesional y supervisión
+            especializada.
 
           </p>
 
@@ -611,13 +535,15 @@
         <!-- CARD -->
 
         <article
-          class="onboarding-card"
+          class="process-card"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
 
           <div class="step-number">
+
             04
+
           </div>
 
           <div class="card-icon">
@@ -630,7 +556,8 @@
 
           <p>
 
-            Seguimiento continuo y mantenimiento especializado.
+            Mantenimiento continuo y atención
+            especializada.
 
           </p>
 
@@ -642,9 +569,7 @@
 
   </section>
 
-  <!-- ========================= -->
   <!-- ABOUT -->
-  <!-- ========================= -->
 
   <section
     class="about section"
@@ -653,8 +578,6 @@
 
     <div class="container about-container">
 
-      <!-- IMAGE -->
-
       <div
         class="about-image"
         data-aos="fade-right"
@@ -662,12 +585,10 @@
 
         <img
           src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1974&auto=format&fit=crop"
-          alt="Sistema de incendios"
+          alt=""
         >
 
       </div>
-
-      <!-- CONTENT -->
 
       <div
         class="about-content"
@@ -675,9 +596,7 @@
       >
 
         <span class="section-tag">
-
           SOBRE NOSOTROS
-
         </span>
 
         <h2 class="section-title">
@@ -689,13 +608,11 @@
 
         <p>
 
-          Implementamos sistemas modernos de prevención
-          y control de incendios con tecnología avanzada
-          y atención especializada.
+          Implementamos sistemas modernos
+          de prevención y control de incendios
+          con tecnología avanzada y soporte técnico.
 
         </p>
-
-        <!-- FEATURES -->
 
         <div class="about-features">
 
@@ -711,7 +628,7 @@
 
             <i class="ri-checkbox-circle-fill"></i>
 
-            <span>Atención personalizada</span>
+            <span>Atención especializada</span>
 
           </div>
 
@@ -719,13 +636,11 @@
 
             <i class="ri-checkbox-circle-fill"></i>
 
-            <span>Soporte especializado</span>
+            <span>Soporte 24/7</span>
 
           </div>
 
         </div>
-
-        <!-- BUTTON -->
 
         <a
           href="#contact"
@@ -742,9 +657,7 @@
 
   </section>
 
-  <!-- ========================= -->
   <!-- SERVICES -->
-  <!-- ========================= -->
 
   <section
     class="services section"
@@ -760,7 +673,7 @@
 
         <span class="section-tag">
 
-          SERVICIOS PRINCIPALES
+          SERVICIOS
 
         </span>
 
@@ -826,381 +739,20 @@
 
         </article>
 
-        <!-- CARD -->
-
-        <article
-          class="service-card"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-
-          <div class="service-image">
-
-            <img
-              src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
-              alt=""
-            >
-
-          </div>
-
-          <div class="service-content">
-
-            <div class="service-icon">
-
-              <i class="ri-drop-line"></i>
-
-            </div>
-
-            <h3>Rociadores</h3>
-
-            <p>
-
-              Sistemas automáticos de supresión
-              de incendios industriales.
-
-            </p>
-
-            <a
-              href="#contact"
-              class="service-link"
-            >
-
-              Saber más
-
-              <i class="ri-arrow-right-line"></i>
-
-            </a>
-
-          </div>
-
-        </article>
-
-        <!-- CARD -->
-
-        <article
-          class="service-card"
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
-
-          <div class="service-image">
-
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
-              alt=""
-            >
-
-          </div>
-
-          <div class="service-content">
-
-            <div class="service-icon">
-
-              <i class="ri-alarm-warning-line"></i>
-
-            </div>
-
-            <h3>Detección Inteligente</h3>
-
-            <p>
-
-              Sensores y sistemas automatizados
-              de alerta temprana.
-
-            </p>
-
-            <a
-              href="#contact"
-              class="service-link"
-            >
-
-              Saber más
-
-              <i class="ri-arrow-right-line"></i>
-
-            </a>
-
-          </div>
-
-        </article>
-
       </div>
 
     </div>
 
   </section>
 
-  <!-- ========================= -->
-  <!-- PROJECTS -->
-  <!-- ========================= -->
+  <!-- FOOTER -->
 
-  <section
-    class="projects section"
-    id="projects"
-  >
-
-    <div class="container">
-
-      <div class="section-header center">
-
-        <span class="section-tag">
-
-          PROYECTOS
-
-        </span>
-
-        <h2 class="section-title">
-
-          Empresas que confiaron
-          en nosotros
-
-        </h2>
-
-      </div>
-
-      <!-- GRID -->
-
-      <div class="projects-grid">
-
-        <div class="project-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2070&auto=format&fit=crop"
-            alt=""
-          >
-
-        </div>
-
-        <div class="project-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
-            alt=""
-          >
-
-        </div>
-
-        <div class="project-card">
-
-          <img
-            src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2069&auto=format&fit=crop"
-            alt=""
-          >
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- TESTIMONIALS -->
-  <!-- ========================= -->
-
-  <section
-    class="testimonials section"
-    id="testimonials"
-  >
-
-    <div class="container">
-
-      <div class="section-header center">
-
-        <span class="section-tag">
-
-          TESTIMONIOS
-
-        </span>
-
-        <h2 class="section-title">
-
-          Nuestros clientes
-          nos recomiendan
-
-        </h2>
-
-      </div>
-
-      <!-- GRID -->
-
-      <div class="testimonial-grid">
-
-        <!-- CARD -->
-
-        <article class="testimonial-card">
-
-          <div class="testimonial-top">
-
-            <img
-              src="https://randomuser.me/api/portraits/women/45.jpg"
-              alt=""
-            >
-
-            <div>
-
-              <h4>Ana Martínez</h4>
-
-              <span>Cliente Corporativo</span>
-
-            </div>
-
-          </div>
-
-          <p>
-
-            Excelente servicio y soporte técnico.
-
-          </p>
-
-        </article>
-
-        <!-- CARD -->
-
-        <article class="testimonial-card">
-
-          <div class="testimonial-top">
-
-            <img
-              src="https://randomuser.me/api/portraits/men/32.jpg"
-              alt=""
-            >
-
-            <div>
-
-              <h4>Gómez Company</h4>
-
-              <span>Empresa Industrial</span>
-
-            </div>
-
-          </div>
-
-          <p>
-
-            Implementaron un sistema moderno y eficiente.
-
-          </p>
-
-        </article>
-
-        <!-- CARD -->
-
-        <article class="testimonial-card">
-
-          <div class="testimonial-top">
-
-            <img
-              src="https://randomuser.me/api/portraits/women/22.jpg"
-              alt=""
-            >
-
-            <div>
-
-              <h4>Laura Sánchez</h4>
-
-              <span>Arquitecta</span>
-
-            </div>
-
-          </div>
-
-          <p>
-
-            Excelente atención y rapidez en cada proceso.
-
-          </p>
-
-        </article>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- CONTACT -->
-  <!-- ========================= -->
-
-  <section
-    class="cta section"
+  <footer
+    class="footer"
     id="contact"
   >
 
-    <div class="container">
-
-      <div class="cta-box">
-
-        <!-- CONTENT -->
-
-        <div class="cta-content">
-
-          <span class="section-tag">
-
-            CONTACTO
-
-          </span>
-
-          <h2>
-
-            ¿Listo para proteger
-            tu empresa?
-
-          </h2>
-
-          <p>
-
-            Solicita una cotización gratuita
-            y recibe asesoría especializada.
-
-          </p>
-
-        </div>
-
-        <!-- FORM -->
-
-        <form class="cta-form">
-
-          <input
-            type="text"
-            placeholder="Nombre"
-            required
-          >
-
-          <input
-            type="email"
-            placeholder="Correo electrónico"
-            required
-          >
-
-          <button
-            type="submit"
-            class="btn-primary"
-          >
-
-            Solicitar Cotización
-
-          </button>
-
-        </form>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- ========================= -->
-  <!-- FOOTER -->
-  <!-- ========================= -->
-
-  <footer class="footer">
-
     <div class="container footer-container">
-
-      <!-- BRAND -->
 
       <div class="footer-brand">
 
@@ -1227,8 +779,6 @@
 
       </div>
 
-      <!-- LINKS -->
-
       <div class="footer-links">
 
         <h3>Explorar</h3>
@@ -1246,8 +796,6 @@
         </ul>
 
       </div>
-
-      <!-- CONTACT -->
 
       <div class="footer-links">
 
@@ -1267,8 +815,6 @@
 
     </div>
 
-    <!-- BOTTOM -->
-
     <div class="footer-bottom">
 
       <p>
@@ -1281,19 +827,15 @@
 
   </footer>
 
-  <!-- ========================= -->
-  <!-- JS -->
-  <!-- ========================= -->
-
   <!-- AOS -->
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+  <!-- JS -->
+
   <script>
 
-    // =========================
     // AOS
-    // =========================
 
     AOS.init({
 
@@ -1302,9 +844,7 @@
 
     });
 
-    // =========================
     // LOADER
-    // =========================
 
     window.addEventListener("load", () => {
 
@@ -1319,9 +859,7 @@
 
     });
 
-    // =========================
     // MOBILE MENU
-    // =========================
 
     const menu =
       document.getElementById("nav-menu");
@@ -1335,9 +873,7 @@
 
     });
 
-    // =========================
     // HEADER SCROLL
-    // =========================
 
     const header =
       document.getElementById("header");
@@ -1356,9 +892,7 @@
 
     });
 
-    // =========================
     // SCROLL TOP
-    // =========================
 
     const scrollTop =
       document.getElementById("scroll-top");
@@ -1377,52 +911,65 @@
 
     });
 
-    // =========================
-    // ACTIVE LINK
-    // =========================
-
-    const sections =
-      document.querySelectorAll("section[id]");
+    // PROGRESS BAR
 
     window.addEventListener("scroll", () => {
 
-      const scrollY = window.pageYOffset;
+      const scrollPx =
+        document.documentElement.scrollTop;
 
-      sections.forEach(current => {
+      const winHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
 
-        const sectionHeight =
-          current.offsetHeight;
+      const scrolled =
+        `${(scrollPx / winHeight) * 100}%`;
 
-        const sectionTop =
-          current.offsetTop - 200;
+      document.getElementById(
+        "progress-bar"
+      ).style.width = scrolled;
 
-        const sectionId =
-          current.getAttribute("id");
+    });
 
-        const link =
-          document.querySelector(
-            '.nav-menu a[href*=' + sectionId + ']'
-          );
+    // COUNTERS
 
-        if (
-          scrollY > sectionTop &&
-          scrollY <= sectionTop + sectionHeight
-        ) {
+    const counters =
+      document.querySelectorAll(".counter");
 
-          link.classList.add("active-link");
+    counters.forEach(counter => {
 
-        } else {
+      const updateCounter = () => {
 
-          link.classList.remove("active-link");
+        const target =
+          +counter.getAttribute("data-target");
+
+        const current =
+          +counter.innerText;
+
+        const increment =
+          target / 40;
+
+        if(current < target){
+
+          counter.innerText =
+            `${Math.ceil(current + increment)}+`;
+
+          setTimeout(updateCounter,40);
+
+        }else{
+
+          counter.innerText =
+            `${target}+`;
 
         }
 
-      });
+      };
+
+      updateCounter();
 
     });
 
   </script>
 
 </body>
-
 </html>
